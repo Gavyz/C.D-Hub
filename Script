@@ -2,7 +2,7 @@ _G.Maintenance = false
 
 
 if _G.Maintenance == true then
-    print("yes")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gavyz/C.D-Hub/main/Maintenance_Script", true))()
 else
 
     print("no")
