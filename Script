@@ -1,1 +1,8 @@
+local userids = loadstring(game:HttpGet("https://raw.githubusercontent.com/Gavyz/C.D-Hub/main/Whitelist", true))()
 
+
+if userids[game.Players.LocalPlayer.UserId] then
+print("good egg")
+else
+game.Players.LocalPlayer:Kick("You are not whitelisted join the discord server to get premium. discord.com/invite/xneNapztaB")
+end
