@@ -1094,3 +1094,6 @@ function Library:Init(options)
 		
 		return Tab
 	end
+	
+	return GUI
+end
