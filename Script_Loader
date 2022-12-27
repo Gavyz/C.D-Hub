@@ -1,4 +1,4 @@
-_G.Maintenance = true
+_G.Maintenance = false
 
 
 if _G.Maintenance == true then
