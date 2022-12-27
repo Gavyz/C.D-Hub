@@ -4,6 +4,5 @@ _G.Maintenance = true
 if _G.Maintenance == true then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Gavyz/C.D-Hub/main/Maintenance_Script", true))()
 else
-
-    print("no")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gavyz/C.D-Hub/main/Script", true))()
 end
