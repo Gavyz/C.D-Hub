@@ -1,4 +1,4 @@
-_G.Maintenance = true
+_G.Maintenance = loadstring(game:HttpGet("https://pastebin.com/raw/Jf5uxS0N", true))()
 
 
 if _G.Maintenance == true then
